@@ -17,3 +17,8 @@ To get an idea of your approach to CSS we want you to make a HTML mockup of the 
 
 *No JavaScript*
 
+## License
+
+Copyright (c) 2014 [Neil Kistner](//github.com/wyze)
+
+Released under the MIT license. See [LICENSE](LICENSE) for details.
