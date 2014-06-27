@@ -1,11 +1,9 @@
 # Muut CSS Challenge
----
 
 My stab at the [CSS challenge](https://muut.com/jobs/#css-challenge) for Muut.
 
 
-## Snippit 
----
+## Snippit
 
 CSS challenge
 
