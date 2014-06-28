@@ -19,7 +19,7 @@ body {
   border-radius: 3px;
   color: #fff;
   float: right;
-  font-size: 13px;
+  font-size: 75%;
   font-weight: 400;
   padding: 5px 10px;
   position: relative;
@@ -40,14 +40,14 @@ body {
 }
 
 .signup {
-  font-size: 40px;
+  font-size: 270%;
 
   input {
     background: transparent;
     border: 0;
     border-bottom: 1px solid #000;
     color: #a8ced8;
-    font: 40px/28px 'Open Sans';
+    font: 100%/28px 'Open Sans';
     outline: 0;
     width: 140px;
   }
@@ -56,43 +56,13 @@ body {
 .btn {
   background: #dd4b5c;
   border: 0;
+  border-radius: 1em;
   color: #fff;
   cursor: pointer;
   display: block;
-  font-size: 15px;
+  font-size: 90%;
   height: 28px;
   margin: 20px auto;
   outline: 0;
-  overflow: visible;
-  padding: 5px;
-  position: relative;
-  width: 110px;
-
-  &::before,
-  &::after {
-    background: #dd4b5c;
-    content: '';
-    display: block;
-    height: 28px;
-    position: absolute;
-    top: 0;
-    width: 14px;
-  }
-
-  &::before {
-    border-radius: 28px 0 0 28px;
-    left: -14px;
-  }
-
-  &::after {
-    border-radius: 0 28px 28px 0;
-    right: -14px;
-  }
-}
-
-// IE10+
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-   .btn::before {
-     left: -13px;
-   }
+  width: 150px;
 }
